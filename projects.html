@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio | APEXBUILD Luxury Construction</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Montserrat', sans-serif; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        
+        /* Smooth Scroll Setup */
+        html.lenis { height: auto; }
+        .lenis.lenis-smooth { scroll-behavior: auto; }
+        .lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+        .lenis.lenis-stopped { overflow: hidden; }
+
+        .glass { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+        .btn-gold { background: #C5A059; transition: all 0.3s ease; }
+        
+        /* Project Hover Effects */
+        .project-card img { transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
+        .project-card:hover img { transform: scale(1.05); }
+        .overlay { background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%); opacity: 0; transition: opacity 0.4s ease; }
+        .project-card:hover .overlay { opacity: 1; }
+
+        /* Custom Filter Active State */
+        .filter-btn.active { border-color: #C5A059; color: #C5A059; }
+    </style>
+</head>
+<body class="bg-[#fafafa] text-slate-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-tighter text-slate-800">APEX<span class="text-[#C5A059]">BUILD</span></a>
+            <div class="hidden md:flex space-x-10 font-medium text-xs uppercase tracking-[0.2em]">
+                <a href="index.html" class="hover:text-[#C5A059] transition">Home</a>
+                <a href="#residential" class="hover:text-[#C5A059] transition">Residential</a>
+                <a href="#commercial" class="hover:text-[#C5A059] transition">Commercial</a>
+                <a href="index.html#contact" class="hover:text-[#C5A059] transition">Inquiry</a>
+            </div>
+            <a href="index.html#contact" class="btn-gold text-white px-7 py-2 text-xs font-bold uppercase tracking-widest">Start a Project</a>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="pt-40 pb-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="max-w-3xl" data-aos="fade-up">
+                <h4 class="uppercase tracking-[0.4em] text-[10px] mb-4 text-[#C5A059] font-bold">The Portfolio</h4>
+                <h1 class="text-5xl md:text-7xl mb-8 leading-tight">Architectural Excellence In Every Detail.</h1>
+                <p class="text-lg text-gray-500 font-light leading-relaxed">
+                    Explore our curated collection of luxury builds. From modern minimalist estates to high-performance commercial spaces, we build for those who demand the extraordinary.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filter Bar -->
+    <div class="sticky top-[72px] z-40 bg-white border-y border-gray-100 py-4 mb-12">
+        <div class="max-w-7xl mx-auto px-6 flex flex-wrap gap-6 text-[10px] font-bold uppercase tracking-[0.2em]">
+            <button class="filter-btn active border-b-2 border-transparent pb-1">All Projects</button>
+            <button class="filter-btn border-b-2 border-transparent pb-1 hover:text-[#C5A059]">Residential</button>
+            <button class="filter-btn border-b-2 border-transparent pb-1 hover:text-[#C5A059]">Commercial</button>
+            <button class="filter-btn border-b-2 border-transparent pb-1 hover:text-[#C5A059]">Renovations</button>
+        </div>
+    </div>
+
+    <!-- Gallery Grid -->
+    <main class="max-w-7xl mx-auto px-6 pb-24">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            
+            <!-- Project 1 - Slides from Left -->
+            <div class="project-card relative group cursor-pointer" data-aos="fade-right" data-aos-duration="1200">
+                <div class="overflow-hidden aspect-[4/5] bg-gray-200">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200" alt="Modern Estate" class="w-full h-full object-cover">
+                </div>
+                <div class="overlay absolute inset-0 flex flex-col justify-end p-10 text-white">
+                    <p class="text-xs uppercase tracking-widest mb-2 text-[#C5A059]">Residential</p>
+                    <h3 class="text-3xl mb-4">The Obsidian Villa</h3>
+                    <p class="text-sm text-gray-300 font-light max-w-sm mb-6">A 12,000 sq ft masterpiece featuring floor-to-ceiling glass and custom basalt finishes.</p>
+                    <span class="text-[10px] font-bold uppercase tracking-widest border-b border-white pb-1 w-fit">View Case Study</span>
+                </div>
+                <div class="mt-6 flex justify-between items-center">
+                    <div>
+                        <h4 class="text-xl font-bold">The Obsidian Villa</h4>
+                        <p class="text-gray-400 text-sm italic">Beverly Hills, CA</p>
+                    </div>
+                    <div class="h-[1px] w-12 bg-gray-300"></div>
+                </div>
+            </div>
+
+            <!-- Project 2 - Slides from Right -->
+            <div class="project-card relative group cursor-pointer md:mt-24" data-aos="fade-left" data-aos-duration="1200">
+                <div class="overflow-hidden aspect-[4/5] bg-gray-200">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200" alt="Corporate HQ" class="w-full h-full object-cover">
+                </div>
+                <div class="overlay absolute inset-0 flex flex-col justify-end p-10 text-white">
+                    <p class="text-xs uppercase tracking-widest mb-2 text-[#C5A059]">Commercial</p>
+                    <h3 class="text-3xl mb-4">Lumina Tech HQ</h3>
+                    <p class="text-sm text-gray-300 font-light max-w-sm mb-6">Innovative workspace design focused on natural light and collaborative flow.</p>
+                    <span class="text-[10px] font-bold uppercase tracking-widest border-b border-white pb-1 w-fit">View Case Study</span>
+                </div>
+                <div class="mt-6 flex justify-between items-center">
+                    <div>
+                        <h4 class="text-xl font-bold">Lumina Tech HQ</h4>
+                        <p class="text-gray-400 text-sm italic">Austin, TX</p>
+                    </div>
+                    <div class="h-[1px] w-12 bg-gray-300"></div>
+                </div>
+            </div>
+
+            <!-- Project 3 - Slides from Left -->
+            <div class="project-card relative group cursor-pointer" data-aos="fade-right" data-aos-duration="1200">
+                <div class="overflow-hidden aspect-square bg-gray-200">
+                    <img src="https://images.unsplash.com/photo-1600607687940-c52fb0c0919c?auto=format&fit=crop&q=80&w=1200" alt="Coastal House" class="w-full h-full object-cover">
+                </div>
+                <div class="overlay absolute inset-0 flex flex-col justify-end p-10 text-white">
+                    <p class="text-xs uppercase tracking-widest mb-2 text-[#C5A059]">Residential</p>
+                    <h3 class="text-3xl mb-4">Pacific Horizon</h3>
+                    <p class="text-sm text-gray-300 font-light max-w-sm mb-6">Sustainable coastal living integrated directly into the cliffside geography.</p>
+                    <span class="text-[10px] font-bold uppercase tracking-widest border-b border-white pb-1 w-fit">View Case Study</span>
+                </div>
+                <div class="mt-6 flex justify-between items-center">
+                    <div>
+                        <h4 class="text-xl font-bold">Pacific Horizon</h4>
+                        <p class="text-gray-400 text-sm italic">Malibu, CA</p>
+                    </div>
+                    <div class="h-[1px] w-12 bg-gray-300"></div>
+                </div>
+            </div>
+
+            <!-- Project 4 - Slides from Right -->
+            <div class="project-card relative group cursor-pointer md:-mt-24" data-aos="fade-left" data-aos-duration="1200">
+                <div class="overflow-hidden aspect-[4/5] bg-gray-200">
+                    <img src="https://images.unsplash.com/photo-1503387762-592dea58ef23?auto=format&fit=crop&q=80&w=1200" alt="Art Museum" class="w-full h-full object-cover">
+                </div>
+                <div class="overlay absolute inset-0 flex flex-col justify-end p-10 text-white">
+                    <p class="text-xs uppercase tracking-widest mb-2 text-[#C5A059]">Renovation</p>
+                    <h3 class="text-3xl mb-4">Heritage Revived</h3>
+                    <p class="text-sm text-gray-300 font-light max-w-sm mb-6">Full structural restoration of a 1920s industrial warehouse into a modern gallery.</p>
+                    <span class="text-[10px] font-bold uppercase tracking-widest border-b border-white pb-1 w-fit">View Case Study</span>
+                </div>
+                <div class="mt-6 flex justify-between items-center">
+                    <div>
+                        <h4 class="text-xl font-bold">Heritage Revived</h4>
+                        <p class="text-gray-400 text-sm italic">London, UK</p>
+                    </div>
+                    <div class="h-[1px] w-12 bg-gray-300"></div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- High-Converting CTA Footer -->
+    <section class="py-24 bg-slate-900 text-white text-center">
+        <div class="max-w-4xl mx-auto px-6" data-aos="zoom-in">
+            <h2 class="text-4xl md:text-6xl mb-8">Have a vision for a world-class project?</h2>
+            <p class="text-gray-400 text-xl mb-12 font-light italic">"The difference between a house and a legacy is the hands that build it."</p>
+            <a href="index.html#contact" class="btn-gold px-12 py-5 inline-block text-white font-bold uppercase tracking-[0.2em] text-sm">Let's Build Together</a>
+        </div>
+    </section>
+
+    <!-- Footer same as index -->
+    <footer class="bg-slate-900 text-white py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 text-center text-gray-500 text-xs tracking-widest uppercase">
+            © 2023 APEXBUILD CONSTRUCTION GROUP. Precision and Legacy.
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Lenis Smooth Scroll Library -->
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js"></script>
+    
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: false, // Set to false so animations re-trigger for that "sliding" feel on scroll up/down
+            mirror: true
+        });
+
+        // Initialize Lenis Smooth Scroll
+        const lenis = new Lenis()
+        function raf(time) {
+            lenis.raf(time)
+            requestAnimationFrame(raf)
+        }
+        requestAnimationFrame(raf)
+
+        // Simple Filter Toggle (Visual only for this demo)
+        const buttons = document.querySelectorAll('.filter-btn');
+        buttons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                buttons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

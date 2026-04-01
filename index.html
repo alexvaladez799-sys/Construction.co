@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Build | Luxury Construction & Master Craftsmanship</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+    <style>
+        body { font-family: 'Montserrat', sans-serif; scroll-behavior: smooth; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        .hero-gradient { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1503387762-592dea58ef23?auto=format&fit=crop&q=80&w=1920'); background-size: cover; background-position: center; }
+        .glass { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+        .btn-gold { background: #C5A059; transition: all 0.3s ease; }
+        .btn-gold:hover { background: #A38446; transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tighter text-slate-800">APEX<span class="text-[#C5A059]">BUILD</span></div>
+            <div class="hidden md:flex space-x-8 font-medium text-sm uppercase tracking-widest">
+                <a href="#services" class="hover:text-[#C5A059] transition">Services</a>
+                <a href="#portfolio" class="hover:text-[#C5A059] transition">Portfolio</a>
+                <a href="#process" class="hover:text-[#C5A059] transition">Our Process</a>
+                <a href="#testimonials" class="hover:text-[#C5A059] transition">Testimonials</a>
+            </div>
+            <a href="#contact" class="btn-gold text-white px-6 py-2 rounded-sm text-sm font-bold uppercase tracking-wider">Get a Quote</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="h-screen flex items-center justify-center text-center hero-gradient text-white px-4">
+        <div data-aos="fade-up" data-aos-duration="1000">
+            <h4 class="uppercase tracking-[0.3em] text-sm mb-4 text-[#C5A059] font-semibold">Prestige & Precision</h4>
+            <h1 class="text-5xl md:text-7xl mb-6 leading-tight">Building Legacy <br> Through Craftsmanship.</h1>
+            <p class="max-w-2xl mx-auto text-lg md:text-xl text-gray-200 mb-8 font-light">
+                We transform architectural visions into structural masterpieces. High-end residential and commercial construction delivered with uncompromising quality.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#portfolio" class="btn-gold px-10 py-4 rounded-sm text-white font-bold uppercase text-sm">View Our Projects</a>
+                <a href="#contact" class="bg-transparent border border-white px-10 py-4 rounded-sm text-white font-bold uppercase text-sm hover:bg-white hover:text-black transition">Consult an Expert</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <section class="py-12 bg-white border-b">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center opacity-60 grayscale">
+                <div class="font-bold text-xl">TRUSTED PARTNER</div>
+                <div class="font-bold text-xl">ISO 9001 CERTIFIED</div>
+                <div class="font-bold text-xl">AWARD WINNING</div>
+                <div class="font-bold text-xl">LICENSED & INSURED</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl md:text-5xl mb-4">Master-Level Services</h2>
+                <div class="w-20 h-1 bg-[#C5A059] mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-xl mx-auto">From ground-up developments to bespoke interior renovations, we provide full-service solutions for the discerning client.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-10">
+                <!-- Card 1 -->
+                <div class="bg-white p-10 shadow-sm hover:shadow-xl transition group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="mb-6 text-4xl text-[#C5A059]"><i class="fas fa-home"></i></div>
+                    <h3 class="text-2xl mb-4 text-slate-800">Luxury Residential</h3>
+                    <p class="text-gray-500 mb-6 leading-relaxed">Custom estate homes designed for lifestyle, longevity, and unparalleled aesthetic appeal.</p>
+                    <a href="#" class="text-[#C5A059] font-bold text-sm tracking-widest group-hover:underline uppercase">Learn More →</a>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-10 shadow-sm hover:shadow-xl transition group" data-aos="fade-up" data-aos-delay="200">
+                    <div class="mb-6 text-4xl text-[#C5A059]"><i class="fas fa-building"></i></div>
+                    <h3 class="text-2xl mb-4 text-slate-800">Commercial Builds</h3>
+                    <p class="text-gray-500 mb-6 leading-relaxed">Sophisticated office spaces and retail flagship stores delivered on strict timelines.</p>
+                    <a href="#" class="text-[#C5A059] font-bold text-sm tracking-widest group-hover:underline uppercase">Learn More →</a>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-10 shadow-sm hover:shadow-xl transition group" data-aos="fade-up" data-aos-delay="300">
+                    <div class="mb-6 text-4xl text-[#C5A059]"><i class="fas fa-tools"></i></div>
+                    <h3 class="text-2xl mb-4 text-slate-800">Major Renovation</h3>
+                    <p class="text-gray-500 mb-6 leading-relaxed">Restoring and modernizing historical or outdated properties while preserving structural integrity.</p>
+                    <a href="#" class="text-[#C5A059] font-bold text-sm tracking-widest group-hover:underline uppercase">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery -->
+    <section id="portfolio" class="py-24 bg-white">
+        <div class="max-w-[1400px] mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+                <div data-aos="fade-right">
+                    <h2 class="text-4xl md:text-5xl mb-2">Our Showcase</h2>
+                    <p class="text-gray-500">Exceptional projects, meticulously executed.</p>
+                </div>
+                <div data-aos="fade-left" class="mt-4 md:mt-0">
+                    <button class="border-b-2 border-[#C5A059] pb-1 font-bold text-sm tracking-widest uppercase">View All Projects</button>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="relative overflow-hidden group h-80" data-aos="zoom-in">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" class="object-cover w-full h-full transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                        <div class="text-white text-center">
+                            <p class="uppercase text-xs tracking-widest">Beverly Hills</p>
+                            <h4 class="text-xl font-bold">Modern Villa</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden group h-80" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800" class="object-cover w-full h-full transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                        <div class="text-white text-center">
+                            <p class="uppercase text-xs tracking-widest">Financial District</p>
+                            <h4 class="text-xl font-bold">Skyline Offices</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden group h-80" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800" class="object-cover w-full h-full transition duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                        <div class="text-white text-center">
+                            <p class="uppercase text-xs tracking-widest">Coastal Region</p>
+                            <h4 class="text-xl font-bold">The Glass House</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us / Conversion Section -->
+    <section id="process" class="py-24 bg-slate-900 text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
+            <div class="md:w-1/2" data-aos="fade-right">
+                <h2 class="text-4xl md:text-5xl mb-8 leading-tight">Why the most ambitious clients choose us.</h2>
+                <div class="space-y-8">
+                    <div class="flex gap-4">
+                        <div class="text-[#C5A059] text-2xl font-bold">01</div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2">Unmatched Transparency</h4>
+                            <p class="text-gray-400">Our real-time project management portal keeps you updated on every brick laid and every dollar spent.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="text-[#C5A059] text-2xl font-bold">02</div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2">Elite Supply Chain</h4>
+                            <p class="text-gray-400">We source only the finest sustainable materials from globally recognized vendors.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="text-[#C5A059] text-2xl font-bold">03</div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2">Precision Engineering</h4>
+                            <p class="text-gray-400">Our in-house structural engineers ensure that your design isn't just beautiful—it's built to last for generations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 relative" data-aos="fade-left">
+                <img src="https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=800" class="rounded shadow-2xl">
+                <div class="absolute -bottom-10 -left-10 bg-[#C5A059] p-8 hidden lg:block">
+                    <p class="text-4xl font-bold">25+</p>
+                    <p class="text-sm uppercase tracking-widest">Years of Excellence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <div class="mb-12" data-aos="fade-up">
+                <i class="fas fa-quote-left text-5xl text-gray-200 mb-6"></i>
+                <h2 class="text-3xl md:text-4xl italic font-light leading-relaxed">
+                    "APEXBUILD transformed our concept into a reality that exceeded every expectation. Their attention to detail in the finishing work is something you simply don't see in the industry anymore."
+                </h2>
+                <div class="mt-8">
+                    <p class="font-bold text-lg uppercase tracking-widest">Jonathan Sterling</p>
+                    <p class="text-[#C5A059] font-medium">CEO, Sterling Investments</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Generation Form -->
+    <section id="contact" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="bg-white shadow-2xl rounded-sm flex flex-col md:flex-row overflow-hidden">
+                <div class="md:w-1/2 bg-slate-800 text-white p-12 flex flex-col justify-center">
+                    <h2 class="text-4xl mb-6">Ready to start your legacy?</h2>
+                    <p class="text-gray-400 mb-8">Contact us today for a private consultation and project estimate. Our experts are ready to guide you through every step of the process.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-4">
+                            <span class="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center text-[#C5A059]"><i class="fas fa-phone"></i></span>
+                            <span>(555) 123-4567</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <span class="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center text-[#C5A059]"><i class="fas fa-envelope"></i></span>
+                            <span>projects@apexbuild.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 p-12">
+                    <form class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-widest mb-2">Full Name</label>
+                                <input type="text" class="w-full border-b-2 border-gray-200 focus:border-[#C5A059] outline-none py-2 transition bg-transparent" placeholder="John Doe">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-widest mb-2">Email Address</label>
+                                <input type="email" class="w-full border-b-2 border-gray-200 focus:border-[#C5A059] outline-none py-2 transition bg-transparent" placeholder="john@example.com">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-widest mb-2">Project Type</label>
+                            <select class="w-full border-b-2 border-gray-200 focus:border-[#C5A059] outline-none py-2 transition bg-transparent">
+                                <option>Luxury Residential</option>
+                                <option>Commercial Development</option>
+                                <option>Interior Renovation</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-widest mb-2">Message</label>
+                            <textarea rows="4" class="w-full border-b-2 border-gray-200 focus:border-[#C5A059] outline-none py-2 transition bg-transparent" placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full btn-gold text-white font-bold py-4 uppercase tracking-[0.2em] text-sm">Send Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-16 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12">
+            <div class="col-span-1 md:col-span-2">
+                <div class="text-2xl font-bold tracking-tighter mb-6">APEX<span class="text-[#C5A059]">BUILD</span></div>
+                <p class="text-gray-400 max-w-sm">Defining the skyline and building the future of luxury living since 1998. Your partner in high-end construction.</p>
+            </div>
+            <div>
+                <h4 class="font-bold uppercase tracking-widest text-sm mb-6">Navigation</h4>
+                <ul class="space-y-4 text-gray-400 text-sm">
+                    <li><a href="#" class="hover:text-white transition">Portfolio</a></li>
+                    <li><a href="#" class="hover:text-white transition">Our Services</a></li>
+                    <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-white transition">Careers</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold uppercase tracking-widest text-sm mb-6">Social</h4>
+                <div class="flex space-x-4">
+                    <a href="#" class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center hover:bg-[#C5A059] hover:border-[#C5A059] transition"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center hover:bg-[#C5A059] hover:border-[#C5A059] transition"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-slate-800 text-center text-gray-500 text-xs">
+            © 2023 APEXBUILD CONSTRUCTION GROUP. ALL RIGHTS RESERVED.
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>
