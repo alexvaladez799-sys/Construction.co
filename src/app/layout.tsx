@@ -1,23 +1,22 @@
 import type { Metadata } from "next";
-import { Inter, Cormorant_Garamond } from "next/font/google";
+import { Montserrat, Open_Sans } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
-  weight: ["300", "400", "600"],
+  weight: ["400", "500", "600", "700"],
 });
 
-const cormorant = Cormorant_Garamond({
-  variable: "--font-cormorant",
+const openSans = Open_Sans({
+  variable: "--font-open-sans",
   subsets: ["latin"],
-  weight: ["500", "600"],
-  style: ["normal", "italic"],
+  weight: ["300", "400", "500", "600"],
 });
 
 export const metadata: Metadata = {
-  title: "APEX | Architectural Mastery & Glass",
-  description: "Premium contracting firm specializing in structural integrity and modern transparency.",
+  title: "Complete Construction Company | Clovis, CA",
+  description: "Family-owned construction company serving Clovis, California with excellence, integrity, and craftsmanship you can trust.",
 };
 
 export default function RootLayout({
@@ -26,8 +25,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${cormorant.variable}`}>
-      <body>{children}</body>
+    <html lang="en" className={`${montserrat.variable} ${openSans.variable} scroll-smooth`}>
+      <body className="antialiased min-h-screen bg-white text-gray-900 font-sans">
+        {children}
+      </body>
     </html>
   );
 }

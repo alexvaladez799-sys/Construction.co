@@ -1,0 +1,235 @@
+{
+  "sitemap": {
+    "name": "Complete Construction Company Website",
+    "pages": [
+      {
+        "id": "home",
+        "name": "Home",
+        "url": "/",
+        "template": "homepage",
+        "priority": 1.0,
+        "sections": [
+          "hero",
+          "about-preview",
+          "services-grid",
+          "3d-modeler-cta",
+          "why-choose-us",
+          "testimonials",
+          "gallery-preview",
+          "final-cta"
+        ]
+      },
+      {
+        "id": "about",
+        "name": "About Us",
+        "url": "/about",
+        "template": "standard-page",
+        "priority": 0.9,
+        "sections": [
+          "company-story",
+          "our-values",
+          "credentials",
+          "team-intro",
+          "cta"
+        ]
+      },
+      {
+        "id": "services-hub",
+        "name": "Services",
+        "url": "/services",
+        "template": "services-hub",
+        "priority": 0.9,
+        "sections": [
+          "services-overview",
+          "service-grid",
+          "financing-info",
+          "cta"
+        ]
+      },
+      {
+        "id": "metal-buildings",
+        "name": "Metal Buildings",
+        "url": "/services/metal-buildings",
+        "template": "service-detail",
+        "priority": 0.8,
+        "parent": "services-hub",
+        "sections": [
+          "service-hero",
+          "service-description",
+          "types-of-buildings",
+          "benefits",
+          "process",
+          "gallery",
+          "cta-form"
+        ]
+      },
+      {
+        "id": "roofing",
+        "name": "Roofing & Gutters",
+        "url": "/services/roofing-gutters",
+        "template": "service-detail",
+        "priority": 0.8,
+        "parent": "services-hub",
+        "sections": [
+          "service-hero",
+          "service-description",
+          "roofing-services",
+          "materials",
+          "process",
+          "gallery",
+          "cta-form"
+        ]
+      },
+      {
+        "id": "renovations",
+        "name": "Renovations & Additions",
+        "url": "/services/renovations-additions",
+        "template": "service-detail",
+        "priority": 0.8,
+        "parent": "services-hub",
+        "sections": [
+          "service-hero",
+          "service-description",
+          "renovation-types",
+          "process",
+          "gallery",
+          "cta-form"
+        ]
+      },
+      {
+        "id": "concrete",
+        "name": "Concrete Work",
+        "url": "/services/concrete-work",
+        "template": "service-detail",
+        "priority": 0.8,
+        "parent": "services-hub",
+        "sections": [
+          "service-hero",
+          "service-description",
+          "concrete-services",
+          "gallery",
+          "cta-form"
+        ]
+      },
+      {
+        "id": "remodeling",
+        "name": "Remodeling",
+        "url": "/services/remodeling",
+        "template": "service-detail",
+        "priority": 0.8,
+        "parent": "services-hub",
+        "sections": [
+          "service-hero",
+          "service-description",
+          "remodeling-areas",
+          "gallery",
+          "cta-form"
+        ]
+      },
+      {
+        "id": "new-construction",
+        "name": "New Construction",
+        "url": "/services/new-construction",
+        "template": "service-detail",
+        "priority": 0.8,
+        "parent": "services-hub",
+        "sections": [
+          "service-hero",
+          "service-description",
+          "construction-types",
+          "process",
+          "gallery",
+          "cta-form"
+        ]
+      },
+      {
+        "id": "fencing",
+        "name": "Fencing",
+        "url": "/services/fencing",
+        "template": "service-detail",
+        "priority": 0.7,
+        "parent": "services-hub",
+        "sections": [
+          "service-hero",
+          "service-description",
+          "fence-types",
+          "gallery",
+          "cta-form"
+        ]
+      },
+      {
+        "id": "gallery",
+        "name": "Gallery",
+        "url": "/gallery",
+        "template": "gallery-page",
+        "priority": 0.7,
+        "sections": [
+          "gallery-header",
+          "project-categories",
+          "image-grid",
+          "cta"
+        ]
+      },
+      {
+        "id": "financing",
+        "name": "Financing",
+        "url": "/financing",
+        "template": "standard-page",
+        "priority": 0.6,
+        "sections": [
+          "financing-intro",
+          "hearth-integration",
+          "benefits",
+          "how-it-works",
+          "cta"
+        ]
+      },
+      {
+        "id": "contact",
+        "name": "Contact Us",
+        "url": "/contact",
+        "template": "contact-page",
+        "priority": 0.9,
+        "sections": [
+          "contact-header",
+          "contact-form",
+          "contact-info",
+          "map",
+          "hours"
+        ]
+      },
+      {
+        "id": "3d-builder",
+        "name": "3D Building Modeler",
+        "url": "/3d-builder",
+        "template": "external-link",
+        "priority": 0.5,
+        "external_url": "https://completeconstruction-company.actbuildingsystems.com/"
+      }
+    ]
+  },
+  "navigation": {
+    "main_menu": [
+      {"label": "Home", "link": "/", "page_id": "home"},
+      {"label": "About Us", "link": "/about", "page_id": "about"},
+      {"label": "Services", "link": "/services", "page_id": "services-hub", "dropdown": true, "submenu": [
+        {"label": "Metal Buildings", "link": "/services/metal-buildings", "page_id": "metal-buildings"},
+        {"label": "Roofing & Gutters", "link": "/services/roofing-gutters", "page_id": "roofing"},
+        {"label": "Renovations & Additions", "link": "/services/renovations-additions", "page_id": "renovations"},
+        {"label": "Concrete Work", "link": "/services/concrete-work", "page_id": "concrete"},
+        {"label": "Remodeling", "link": "/services/remodeling", "page_id": "remodeling"},
+        {"label": "New Construction", "link": "/services/new-construction", "page_id": "new-construction"},
+        {"label": "Fencing", "link": "/services/fencing", "page_id": "fencing"}
+      ]},
+      {"label": "Gallery", "link": "/gallery", "page_id": "gallery"},
+      {"label": "Financing", "link": "/financing", "page_id": "financing"},
+      {"label": "3D Builder", "link": "/3d-builder", "page_id": "3d-builder"},
+      {"label": "Contact", "link": "/contact", "page_id": "contact"}
+    ],
+    "cta_button": {
+      "label": "Free Estimate",
+      "link": "/contact",
+      "style": "primary"
+    }
+  }
+}

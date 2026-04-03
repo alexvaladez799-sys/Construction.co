@@ -1,0 +1,134 @@
+{
+  "website_colors": {
+    "primary": {
+      "main": "#1E3A5F",
+      "light": "#2C5282",
+      "dark": "#0F1E3A",
+      "description": "Professional navy blue - trust, reliability, construction industry standard"
+    },
+    "secondary": {
+      "main": "#F59E0B",
+      "light": "#FCD34D",
+      "dark": "#D97706",
+      "description": "Construction orange - energy, safety, action"
+    },
+    "accent": {
+      "success": "#10B981",
+      "warning": "#EF4444",
+      "info": "#3B82F6"
+    },
+    "neutral": {
+      "white": "#FFFFFF",
+      "gray_50": "#F9FAFB",
+      "gray_100": "#F3F4F6",
+      "gray_200": "#E5E7EB",
+      "gray_300": "#D1D5DB",
+      "gray_600": "#4B5563",
+      "gray_800": "#1F2937",
+      "gray_900": "#111827",
+      "black": "#000000"
+    }
+  },
+  "typography": {
+    "font_families": {
+      "headings": "'Montserrat', 'Roboto', 'Open Sans', sans-serif",
+      "body": "'Open Sans', 'Roboto', 'Helvetica Neue', Arial, sans-serif",
+      "buttons": "'Montserrat', sans-serif"
+    },
+    "font_sizes": {
+      "h1": "48px",
+      "h2": "36px",
+      "h3": "28px",
+      "h4": "24px",
+      "h5": "20px",
+      "h6": "18px",
+      "body": "16px",
+      "small": "14px",
+      "button": "16px"
+    },
+    "font_weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    }
+  },
+  "buttons": {
+    "primary": {
+      "background": "#F59E0B",
+      "color": "#FFFFFF",
+      "border": "none",
+      "hover_background": "#D97706",
+      "padding": "14px 32px",
+      "border_radius": "6px",
+      "font_weight": 600
+    },
+    "secondary": {
+      "background": "#1E3A5F",
+      "color": "#FFFFFF",
+      "border": "none",
+      "hover_background": "#2C5282",
+      "padding": "14px 32px",
+      "border_radius": "6px",
+      "font_weight": 600
+    },
+    "outline": {
+      "background": "transparent",
+      "color": "#1E3A5F",
+      "border": "2px solid #1E3A5F",
+      "hover_background": "#1E3A5F",
+      "hover_color": "#FFFFFF",
+      "padding": "12px 30px",
+      "border_radius": "6px"
+    }
+  },
+  "spacing": {
+    "section_padding": "80px 0",
+    "container_padding": "0 20px",
+    "element_margin": "20px",
+    "small_gap": "10px",
+    "medium_gap": "20px",
+    "large_gap": "40px"
+  },
+  "layout": {
+    "max_width": "1200px",
+    "breakpoints": {
+      "mobile": "320px",
+      "tablet": "768px",
+      "desktop": "1024px",
+      "wide": "1440px"
+    },
+    "grid": {
+      "columns": 12,
+      "gutter": "20px"
+    }
+  },
+  "components": {
+    "cards": {
+      "background": "#FFFFFF",
+      "border": "1px solid #E5E7EB",
+      "border_radius": "8px",
+      "box_shadow": "0 1px 3px rgba(0,0,0,0.1)",
+      "hover_shadow": "0 4px 12px rgba(0,0,0,0.15)",
+      "padding": "24px"
+    },
+    "forms": {
+      "input_background": "#FFFFFF",
+      "input_border": "1px solid #D1D5DB",
+      "input_border_focus": "2px solid #F59E0B",
+      "input_padding": "12px 16px",
+      "input_border_radius": "6px",
+      "label_color": "#374151",
+      "placeholder_color": "#9CA3AF"
+    },
+    "navigation": {
+      "height": "80px",
+      "background": "#FFFFFF",
+      "border_bottom": "1px solid #E5E7EB",
+      "link_color": "#1F2937",
+      "link_hover_color": "#F59E0B",
+      "mobile_menu_background": "#FFFFFF"
+    }
+  }
+}

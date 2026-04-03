@@ -1,0 +1,196 @@
+{
+  "meta_tags": {
+    "site_name": "Complete Construction Company",
+    "default_title": "Complete Construction Company | Quality Construction in Clovis, CA",
+    "default_description": "Family-owned construction company in Clovis, CA. Metal buildings, roofing, renovations & more. Licensed, insured, 5-star rated. Call (559) 536-0625 for free estimate.",
+    "keywords": [
+      "construction company Clovis CA",
+      "general contractor Clovis",
+      "metal buildings Clovis",
+      "roofing contractor Clovis",
+      "home remodeling Clovis",
+      "concrete work Clovis",
+      "construction Fresno County",
+      "licensed contractor Clovis CA"
+    ],
+    "author": "Complete Construction Company",
+    "copyright": "2026 Complete Construction Company"
+  },
+  "page_meta": {
+    "home": {
+      "title": "Complete Construction Company | Clovis, CA General Contractor",
+      "description": "Quality projects on time, every time. Family-owned construction company serving Clovis with metal buildings, roofing, renovations & more. 5-star rated. Free estimates.",
+      "keywords": "construction company Clovis, general contractor Clovis CA, metal buildings, roofing Clovis, home renovation Clovis"
+    },
+    "about": {
+      "title": "About Us | Complete Construction Company Clovis, CA",
+      "description": "Learn about Complete Construction Company - Clovis' trusted family-owned construction business. Licensed, insured, 20+ years experience. Building excellence since day one.",
+      "keywords": "about Complete Construction, family owned contractor Clovis, licensed contractor Clovis, construction company history"
+    },
+    "services-hub": {
+      "title": "Construction Services | Complete Construction Company Clovis, CA",
+      "description": "Comprehensive construction services in Clovis: metal buildings, roofing, renovations, concrete, remodeling & new construction. Licensed & insured. Free quotes.",
+      "keywords": "construction services Clovis, contractor services, building services Clovis CA"
+    },
+    "metal-buildings": {
+      "title": "Metal Buildings Clovis CA | Agricultural & Commercial Construction",
+      "description": "Custom metal buildings in Clovis, CA. Agricultural buildings, shops, garages, carports & commercial structures. Expert installation. Free estimate (559) 536-0625.",
+      "keywords": "metal buildings Clovis, steel buildings Clovis CA, agricultural buildings, shop construction, metal carport Clovis"
+    },
+    "roofing": {
+      "title": "Roofing Contractor Clovis CA | Roof Installation & Repair",
+      "description": "Expert roofing services in Clovis, CA. New roofs, repairs, re-roofing & gutters. Residential & commercial. Licensed roofer. Call (559) 536-0625 for free inspection.",
+      "keywords": "roofing contractor Clovis, roof repair Clovis CA, roof installation, gutter installation Clovis, roofer Clovis"
+    },
+    "renovations": {
+      "title": "Home Renovations & Additions Clovis CA | Remodeling Experts",
+      "description": "Transform your home with expert renovations & additions in Clovis. Room additions, whole house remodels, kitchen & bath upgrades. Free consultation.",
+      "keywords": "home renovation Clovis, home addition Clovis CA, remodeling contractor, room addition, house renovation"
+    },
+    "concrete": {
+      "title": "Concrete Contractor Clovis CA | Driveways, Patios & Foundations",
+      "description": "Professional concrete services in Clovis, CA. Driveways, patios, walkways, foundations & slabs. Quality concrete work. Free estimates (559) 536-0625.",
+      "keywords": "concrete contractor Clovis, concrete driveway Clovis CA, concrete patio, foundation contractor, concrete slab"
+    },
+    "remodeling": {
+      "title": "Home Remodeling Clovis CA | Kitchen & Bathroom Remodel Experts",
+      "description": "Expert home remodeling in Clovis, CA. Kitchen remodels, bathroom renovations & whole house transformations. Licensed contractor. Call for free quote.",
+      "keywords": "home remodeling Clovis, kitchen remodel Clovis CA, bathroom remodel, house remodeling contractor"
+    },
+    "new-construction": {
+      "title": "New Construction Clovis CA | Custom Home & Commercial Builder",
+      "description": "Ground-up construction in Clovis, CA. Custom homes, commercial buildings & residential projects. Licensed builder. Quality construction from foundation up.",
+      "keywords": "new construction Clovis, home builder Clovis CA, custom home construction, commercial construction"
+    },
+    "fencing": {
+      "title": "Fencing Contractor Clovis CA | Residential & Commercial Fence Installation",
+      "description": "Professional fencing services in Clovis, CA. Residential & commercial fence installation and repair. Quality materials, expert installation. Free estimates.",
+      "keywords": "fencing contractor Clovis, fence installation Clovis CA, fence repair, commercial fencing"
+    },
+    "gallery": {
+      "title": "Project Gallery | Complete Construction Company Work Portfolio",
+      "description": "View completed projects from Complete Construction Company in Clovis, CA. Browse our gallery of metal buildings, roofing, renovations & more.",
+      "keywords": "construction portfolio Clovis, completed projects, before and after construction, project gallery"
+    },
+    "contact": {
+      "title": "Contact Us | Complete Construction Company Clovis, CA",
+      "description": "Contact Complete Construction Company for your Clovis construction project. Call (559) 536-0625 or request a free estimate online. Licensed & insured.",
+      "keywords": "contact contractor Clovis, construction quote Clovis, free estimate construction, (559) 536-0625"
+    }
+  },
+  "local_seo_keywords": {
+    "primary": [
+      "construction company Clovis CA",
+      "general contractor Clovis California",
+      "Clovis construction services",
+      "contractor near me Clovis"
+    ],
+    "secondary": [
+      "metal building contractor Clovis",
+      "roofing company Clovis CA",
+      "home remodeling Clovis California",
+      "concrete contractor Clovis",
+      "renovation contractor Clovis",
+      "new construction Clovis CA",
+      "fence installation Clovis"
+    ],
+    "long_tail": [
+      "best construction company in Clovis CA",
+      "licensed general contractor Clovis California",
+      "family owned construction company Clovis",
+      "metal building installation Clovis CA",
+      "residential roofing contractor Clovis",
+      "kitchen and bathroom remodeling Clovis",
+      "concrete driveway installation Clovis CA",
+      "room addition contractor Clovis California"
+    ],
+    "service_area": [
+      "Clovis CA",
+      "Fresno CA",
+      "Central Valley",
+      "Fresno County",
+      "93619",
+      "93611",
+      "93612"
+    ]
+  },
+  "schema_markup": {
+    "organization": {
+      "@context": "https://schema.org",
+      "@type": "GeneralContractor",
+      "name": "Complete Construction Company",
+      "image": "https://completeconstruction-company.com/logo.png",
+      "url": "https://completeconstruction-company.com",
+      "telephone": "+15595360625",
+      "email": "support@completeconstruction-company.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1077 N. Willow Ave, Ste 105-966",
+        "addressLocality": "Clovis",
+        "addressRegion": "CA",
+        "postalCode": "93611",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "36.8252",
+        "longitude": "-119.7029"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "07:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ],
+      "priceRange": "$$",
+      "areaServed": {
+        "@type": "City",
+        "name": "Clovis",
+        "containedIn": {
+          "@type": "State",
+          "name": "California"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "15"
+      },
+      "sameAs": [
+        "https://www.facebook.com/p/Complete-Construction-Company-61559011075832/"
+      ]
+    },
+    "local_business": {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Complete Construction Company",
+      "description": "Family-owned construction company serving Clovis, California with excellence in metal buildings, roofing, renovations, and all construction services.",
+      "hasMap": "https://www.google.com/maps?cid=ChIJt7QinPtblIARhDSuoWBTQow"
+    }
+  },
+  "open_graph": {
+    "og:site_name": "Complete Construction Company",
+    "og:type": "website",
+    "og:locale": "en_US",
+    "og:title": "Complete Construction Company | Quality Construction in Clovis, CA",
+    "og:description": "Family-owned construction company in Clovis, CA. Metal buildings, roofing, renovations & more. Licensed, insured, 5-star rated.",
+    "og:url": "https://completeconstruction-company.com",
+    "og:image": "https://completeconstruction-company.com/og-image.jpg"
+  },
+  "twitter_card": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Complete Construction Company | Clovis, CA",
+    "twitter:description": "Quality construction services in Clovis, CA. Licensed, insured, 5-star rated. Free estimates.",
+    "twitter:image": "https://completeconstruction-company.com/twitter-image.jpg"
+  }
+}

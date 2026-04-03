@@ -1,0 +1,32 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "author": "Satisfied Customer",
+      "rating": 5,
+      "text": "My husband and I have bought, rehabbed and sold many homes in our time and we have never worked with a company as well run as Complete Construction Company. These guys call you when they say they will, they show up when they say they will, they get the job done when they say it'll be done…the work is top quality, affordable and completed by polite and friendly tradesmen. We are so incredibly impressed with these guys and won't use anyone else now.",
+      "project_type": "Home Remodeling"
+    },
+    {
+      "id": 2,
+      "author": "Happy Homeowner",
+      "rating": 5,
+      "text": "It was great. An excellent job done very efficiently, in spite of weather issues. Even the city inspector was impressed. The company owners were very easy to work with and took into consideration all of the special issues this particular job had. They were easy to talk to and quickly answered my questions as they came up. I will certainly contact them when I need a general contractor for future projects.",
+      "project_type": "Construction Project"
+    },
+    {
+      "id": 3,
+      "author": "Ruben's Client",
+      "rating": 5,
+      "text": "Ruben and his crew were the real deal. From the first day when he surveyed our roof he made his proposal, very competitive. The entire job took one week including solar removal and reinstall (has a solar installer). They were punctual, and very thoughtful and clean, hauled off old roof. Being a family business as they are was one of our main reasons making our choice to go with them and we are very happy we did. GREAT PEOPLE AND GREAT JOB!",
+      "project_type": "Roofing"
+    },
+    {
+      "id": 4,
+      "author": "Grateful Customer",
+      "rating": 5,
+      "text": "They were great. The price was fair, the workers were on time and the clean up was complete. Would definitely recommend and hire again! Also, they were very kind to my 87 yo mother. These guys are the best!",
+      "project_type": "General Construction"
+    }
+  ]
+}

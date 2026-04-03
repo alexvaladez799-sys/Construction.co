@@ -1,0 +1,39 @@
+Complete Construction Company - AI Website Builder Import Package
+=================================================================
+
+## Quick Import Instructions
+
+1. **Unzip this package** to your computer
+
+2. **Import Business Data:**
+   - Navigate to `data/business-info.json`
+   - Copy content into your AI builder's business info section
+
+3. **Load Site Structure:**
+   - Open `assets/sitemap.json`
+   - Import into your page builder to create all pages automatically
+
+4. **Add Content:**
+   - Open `content/website-copy.md`
+   - Copy/paste sections into corresponding pages
+
+5. **Configure SEO:**
+   - Open `seo/seo-metadata.json`
+   - Apply meta tags to each page
+
+6. **Apply Design:**
+   - Open `assets/design-system.json`
+   - Use color scheme and typography settings
+
+7. **Add Reviews:**
+   - Open `content/testimonials.json`
+   - Import customer testimonials
+
+## 📞 Business Contact
+- Phone: (559) 536-0625
+- Email: support@completeconstruction-company.com
+- Location: Clovis, CA 93611
+
+## ⭐ Rating: 5.0/5.0 (Perfect Score)
+
+Ready to build! 🚀

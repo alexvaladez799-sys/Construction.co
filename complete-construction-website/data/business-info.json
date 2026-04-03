@@ -1,0 +1,94 @@
+{
+  "business_name": "Complete Construction Company",
+  "tagline": "Quality Projects, On Time, Every Time",
+  "description": "Family-owned business based in Clovis, California with a reputation for excellence in the construction industry. Committed to superior customer service, honesty, and quality craftsmanship.",
+  "contact": {
+    "phone": "(559) 536-0625",
+    "email": "support@completeconstruction-company.com",
+    "website": "https://www.completeconstruction-company.com",
+    "address": {
+      "street": "1077 N. Willow Ave, Ste 105-966",
+      "city": "Clovis",
+      "state": "CA",
+      "zip": "93611",
+      "physical_location": "6823 Leonard Ave, Clovis, CA 93619"
+    }
+  },
+  "hours": {
+    "monday": "7:00 AM - 6:00 PM",
+    "tuesday": "7:00 AM - 6:00 PM",
+    "wednesday": "7:00 AM - 6:00 PM",
+    "thursday": "7:00 AM - 6:00 PM",
+    "friday": "7:00 AM - 6:00 PM",
+    "saturday": "8:00 AM - 5:00 PM",
+    "sunday": "Closed"
+  },
+  "ratings": {
+    "google": 5.0,
+    "yelp": 5.0,
+    "review_count": 15
+  },
+  "services": [
+    {
+      "id": "metal-buildings",
+      "name": "Metal Buildings",
+      "description": "Agricultural buildings, commercial structures, home shops, haybarns, and carports",
+      "icon": "building"
+    },
+    {
+      "id": "roofing",
+      "name": "Roofing & Gutters",
+      "description": "Complete roofing services including installation, repair, and gutter systems",
+      "icon": "roof"
+    },
+    {
+      "id": "renovations",
+      "name": "Renovations & Additions",
+      "description": "Home remodeling, room additions, and complete renovation services",
+      "icon": "home-modern"
+    },
+    {
+      "id": "concrete",
+      "name": "Concrete Work",
+      "description": "Driveways, patios, foundations, and all concrete construction needs",
+      "icon": "squares"
+    },
+    {
+      "id": "remodeling",
+      "name": "Remodeling",
+      "description": "Kitchen, bathroom, and whole-house remodeling services",
+      "icon": "hammer"
+    },
+    {
+      "id": "new-construction",
+      "name": "New Construction",
+      "description": "Ground-up residential and commercial construction projects",
+      "icon": "blueprint"
+    },
+    {
+      "id": "fencing",
+      "name": "Fencing",
+      "description": "Residential and commercial fencing installation and repair",
+      "icon": "fence"
+    }
+  ],
+  "credentials": {
+    "licensed": true,
+    "insured": true,
+    "family_owned": true,
+    "years_experience": "20+"
+  },
+  "unique_features": [
+    "3D Building Modeler Tool",
+    "Financing Options Available (Hearth)",
+    "Family-Owned & Operated",
+    "Licensed & Insured",
+    "Perfect 5-Star Rating"
+  ],
+  "social_media": {
+    "facebook": "https://www.facebook.com/p/Complete-Construction-Company-61559011075832/",
+    "instagram": null,
+    "linkedin": null
+  },
+  "place_id": "ChIJt7QinPtblIARhDSuoWBTQow"
+}
