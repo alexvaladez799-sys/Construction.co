@@ -209,8 +209,8 @@ export default function Home() {
                 {link.name}
               </a>
             ))}
-            <a href="tel:559-536-0625" className="btn-primary text-sm">
-              (559) 536-0625
+            <a href="tel:000-000-000" className="btn-primary text-sm">
+              000-000-000
             </a>
           </div>
 
@@ -246,8 +246,8 @@ export default function Home() {
               ))}
             </div>
             <div className="mt-auto space-y-4">
-              <a href="tel:559-536-0625" className="btn-primary inline-flex items-center justify-center gap-2 w-full text-center">
-                <Phone className="w-5 h-5" /> Call Now: (559) 536-0625
+              <a href="tel:000-000-000" className="btn-primary inline-flex items-center justify-center gap-2 w-full text-center">
+                <Phone className="w-5 h-5" /> Call Now: 000-000-000
               </a>
               <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="btn-secondary inline-flex items-center justify-center gap-2 w-full text-center">
                 Get Free Estimate
@@ -413,8 +413,8 @@ export default function Home() {
                 <a href="#contact" className="btn-primary inline-flex items-center gap-2">
                   Get Free Estimate <ArrowRight className="w-4 h-4" />
                 </a>
-                <a href="tel:559-536-0625" className="btn-outline inline-flex items-center gap-2">
-                  <Phone className="w-4 h-4" /> (559) 536-0625
+                <a href="tel:000-000-000" className="btn-outline inline-flex items-center gap-2">
+                  <Phone className="w-4 h-4" /> 000-000-000
                 </a>
               </div>
             </motion.div>
@@ -497,7 +497,7 @@ export default function Home() {
               <p className="text-white/70">We handle custom scopes — call us and we&apos;ll work it out together.</p>
             </div>
             <div className="flex gap-4 shrink-0">
-              <a href="tel:559-536-0625" className="btn-primary inline-flex items-center gap-2">
+              <a href="tel:000-000-000" className="btn-primary inline-flex items-center gap-2">
                 <Phone className="w-4 h-4" /> Call Now
               </a>
               <a href="#contact" className="bg-white/10 hover:bg-white/20 text-white border border-white/30 py-3 px-6 rounded-md font-semibold transition-all inline-flex items-center gap-2">
@@ -746,13 +746,13 @@ export default function Home() {
 
               {/* Contact details */}
               <div className="space-y-4">
-                <a href="tel:559-536-0625" className="flex items-center gap-4 group">
+                <a href="tel:000-000-000" className="flex items-center gap-4 group">
                   <div className="w-12 h-12 rounded-xl bg-brand-primary flex items-center justify-center group-hover:bg-brand-secondary transition-colors">
                     <Phone className="w-5 h-5 text-white" />
                   </div>
                   <div>
                     <div className="text-xs uppercase tracking-wider text-gray-500 font-semibold">Call Us</div>
-                    <div className="text-lg font-bold text-brand-primary group-hover:text-brand-secondary transition-colors">(559) 536-0625</div>
+                    <div className="text-lg font-bold text-brand-primary group-hover:text-brand-secondary transition-colors">000-000-000</div>
                   </div>
                 </a>
                 <a href="mailto:support@completeconstruction-company.com" className="flex items-center gap-4 group">
@@ -791,7 +791,7 @@ export default function Home() {
                     </div>
                     <h3 className="text-2xl font-bold heading-montserrat text-brand-primary mb-3">Request Received!</h3>
                     <p className="text-gray-600 mb-6">We&apos;ll be in touch within 1 business day to schedule your free on-site estimate.</p>
-                    <a href="tel:559-536-0625" className="btn-primary inline-flex items-center gap-2">
+                    <a href="tel:000-000-000" className="btn-primary inline-flex items-center gap-2">
                       <Phone className="w-4 h-4" /> Call to Expedite
                     </a>
                   </div>
@@ -998,7 +998,7 @@ export default function Home() {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3 text-gray-400 text-sm">
                   <Phone className="w-5 h-5 text-brand-secondary shrink-0 mt-0.5" />
-                  <a href="tel:559-536-0625" className="hover:text-white transition-colors">(559) 536-0625</a>
+                  <a href="tel:000-000-000" className="hover:text-white transition-colors">000-000-000</a>
                 </li>
                 <li className="flex items-start gap-3 text-gray-400 text-sm">
                   <Mail className="w-5 h-5 text-brand-secondary shrink-0 mt-0.5" />
