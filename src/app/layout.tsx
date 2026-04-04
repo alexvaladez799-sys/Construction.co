@@ -15,8 +15,8 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Complete Construction Company | Clovis, CA",
-  description: "Family-owned construction company serving Clovis, California with excellence, integrity, and craftsmanship you can trust.",
+  title: "APEX Construction | Clovis, CA",
+  description: "Licensed general contractors serving Clovis, California with excellence, integrity, and craftsmanship you can trust.",
 };
 
 export default function RootLayout({

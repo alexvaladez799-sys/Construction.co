@@ -108,7 +108,7 @@ const TESTIMONIALS = [
   {
     name: 'Robert & Linda H.',
     location: 'Full Home Renovation · Clovis, CA',
-    quote: 'Complete Construction finished our entire first floor renovation two days early and came in under budget. The work is absolutely flawless — they\'re the last contractor we\'ll ever need.',
+    quote: 'APEX Construction finished our entire first floor renovation two days early and came in under budget. The work is absolutely flawless — they\'re the last contractor we\'ll ever need.',
     initials: 'R',
     stars: 5,
   },
@@ -129,7 +129,7 @@ const TESTIMONIALS = [
   {
     name: 'Tanya & Mark F.',
     location: 'Kitchen Remodel · Fresno, CA',
-    quote: 'I\'ve been burned by contractors before. Complete Construction was completely different — showed up every day, communicated clearly, and the kitchen they built is better than anything I imagined.',
+    quote: 'I\'ve been burned by contractors before. APEX Construction was completely different — showed up every day, communicated clearly, and the kitchen they built is better than anything I imagined.',
     initials: 'T',
     stars: 5,
   },
@@ -195,7 +195,7 @@ export default function Home() {
           <div className="flex items-center gap-2">
             <HardHat className={`w-8 h-8 ${isScrolled ? 'text-brand-primary' : 'text-white'}`} />
             <div className={`text-xl font-bold tracking-tight heading-montserrat ${isScrolled ? 'text-brand-primary' : 'text-white'}`}>
-              Complete Construction
+              APEX Construction
             </div>
           </div>
 
@@ -357,7 +357,7 @@ export default function Home() {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
                 <img
                   src="/images/asset_221p1186c_1775154970860.png"
-                  alt="Complete Construction crew on site"
+                  alt="APEX Construction crew on site"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 />
               </div>
@@ -390,7 +390,7 @@ export default function Home() {
               </h2>
               <div className="space-y-5 text-gray-600 text-lg leading-relaxed">
                 <p>
-                  Complete Construction Company is a fully licensed and insured, family-owned business based in Clovis, California. We have built a reputation for excellence in the construction industry.
+                  APEX Construction is a fully licensed and insured, family-owned business based in Clovis, California. We have built a reputation for excellence in the construction industry.
                 </p>
                 <p>
                   Our commitment to superior customer service, honesty, and quality craftsmanship sets us apart. We take pride in every project we undertake and strive to exceed our clients&apos; expectations.
@@ -952,7 +952,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-5">
                 <HardHat className="w-8 h-8 text-brand-secondary" />
-                <span className="text-xl font-bold heading-montserrat">Complete Construction</span>
+                <span className="text-xl font-bold heading-montserrat">APEX Construction</span>
               </div>
               <p className="text-gray-400 mb-6 text-sm leading-relaxed">
                 Family-owned construction company serving Clovis, CA with excellence. Licensed, insured, and committed to quality craftsmanship.
@@ -1020,7 +1020,7 @@ export default function Home() {
 
           {/* Bottom bar */}
           <div className="pt-8 border-t border-white/10 text-center md:flex md:justify-between md:items-center text-gray-500 text-sm">
-            <p>&copy; {new Date().getFullYear()} Complete Construction Company. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} APEX Construction. All rights reserved.</p>
             <div className="mt-4 md:mt-0 flex flex-wrap justify-center gap-6">
               <span className="flex items-center gap-1"><BadgeCheck className="w-4 h-4 text-brand-secondary" /> Licensed &amp; Insured</span>
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
